@@ -1,0 +1,13 @@
+package PACKAGENAME
+
+import (
+    "EasyGo/context"
+	"EasyGo/route"
+	_ "EasyGo/route/handler"
+)
+
+func init() {
+    route.Route("/", func(ctx *context.Context) {
+        ctx.Output.Success("EasyGo")
+    })
+}

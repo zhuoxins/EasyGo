@@ -1,0 +1,7 @@
+package middleware
+
+import "EasyGo/route"
+
+func MIDDLEWARENAME(r route.Request) {
+	//
+}

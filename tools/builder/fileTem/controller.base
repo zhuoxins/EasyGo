@@ -1,0 +1,11 @@
+package PACKAGENAME
+
+import "EasyGo/route"
+
+type CONTROLLERNAMEController struct {
+    route.Controller
+}
+
+func (this *CONTROLLERNAMEController) Index() {
+	//
+}

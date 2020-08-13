@@ -1,0 +1,13 @@
+package PACKAGENAME
+
+import "EasyGo/model"
+
+type MODELNAMEModel struct {
+	model.Model
+	tabName string
+}
+
+//instancing model
+func NewMODELNAME() *MODELNAMEModel {
+	return model.New(&MODELNAMEModel{tabName: "MODELNAME"}).(*MODELNAMEModel)
+}
